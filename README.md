@@ -13,8 +13,8 @@ This README contains the currently verified network connection details for devel
 | Network type | EVM-compatible blockchain |
 | Consensus | Proof-of-Authority |
 | Execution client | Geth 1.13 |
-| Chain ID | `2442` |
-| Hexadecimal chain ID | `0x98a` |
+| Chain ID | `275` |
+| Hexadecimal chain ID | `0x113` |
 | JSON-RPC endpoint | `https://rpc.drilbyte.com` |
 | Block explorer | `https://explorer.drilbyte.com` |
 | Native currency | DrilByte (`DRBY`, 18 decimals) |
@@ -35,7 +35,7 @@ Use the following values when adding DrilByte to a compatible EVM wallet:
 ```text
 Network name: DrilByte
 RPC URL: https://rpc.drilbyte.com
-Chain ID: 2442
+Chain ID: 275
 Currency name: DrilByte
 Currency symbol: DRBY
 Currency decimals: 18
@@ -48,7 +48,7 @@ DrilByte's native currency is **DrilByte (DRBY)** with **18 decimals**.
 
 ```javascript
 const drilbyte = {
-  chainId: "0x98a", // 2442 in hexadecimal
+  chainId: "0x113", // 275 in hexadecimal
   chainName: "DrilByte",
   nativeCurrency: {
     name: "DrilByte",
@@ -88,13 +88,13 @@ curl https://rpc.drilbyte.com \
   }'
 ```
 
-The expected result for Chain ID `2442` is:
+The expected result for Chain ID `275` is:
 
 ```json
 {
   "jsonrpc": "2.0",
   "id": 1,
-  "result": "0x98a"
+  "result": "0x113"
 }
 ```
 
@@ -127,7 +127,7 @@ import { JsonRpcProvider } from "ethers";
 const provider = new JsonRpcProvider(
   "https://rpc.drilbyte.com",
   {
-    chainId: 2442,
+    chainId: 275,
     name: "drilbyte",
   },
 );
@@ -147,7 +147,7 @@ import { createPublicClient, http } from "viem";
 import { defineChain } from "viem";
 
 const drilbyte = defineChain({
-  id: 2442,
+  id: 275,
   name: "DrilByte",
   nativeCurrency: {
     name: "DrilByte",
@@ -209,7 +209,7 @@ Configure your deployment tool with:
 
 ```text
 RPC URL: https://rpc.drilbyte.com
-Chain ID: 2442
+Chain ID: 275
 ```
 
 ### Hardhat network configuration
@@ -220,7 +220,7 @@ export default {
   networks: {
     drilbyte: {
       url: "https://rpc.drilbyte.com",
-      chainId: 2442,
+      chainId: 275,
       accounts: process.env.DRILBYTE_PRIVATE_KEY
         ? [process.env.DRILBYTE_PRIVATE_KEY]
         : [],
@@ -316,7 +316,7 @@ Before publishing a final production version of this README, confirm the followi
 | --- | --- |
 | Network name | Confirmed: DrilByte |
 | RPC URL | Confirmed: `https://rpc.drilbyte.com` |
-| Chain ID | Confirmed: `2442` / `0x98a` |
+| Chain ID | Confirmed: `275` / `0x113` |
 | Client | Confirmed: Geth 1.13 |
 | Consensus | Confirmed: Proof-of-Authority |
 | EVM compatibility | Confirmed |
