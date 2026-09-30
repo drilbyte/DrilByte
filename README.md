@@ -20,6 +20,7 @@ This README contains the currently verified network connection details for devel
 | Native currency | DrilByte (`DRBY`, 18 decimals) |
 | Documentation | `https://drilbyte.com/docs` |
 | Game | `https://game.drilbyte.com/` |
+| Airdrop | `https://dril.drilbyte.com/` |
 
 ## Quick links
 
