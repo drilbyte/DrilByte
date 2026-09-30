@@ -28,6 +28,7 @@ This README contains the currently verified network connection details for devel
 - [JSON-RPC endpoint](https://rpc.drilbyte.com)
 - [Block explorer](https://explorer.drilbyte.com)
 - [DrilByte game](https://game.drilbyte.com/)
+- [DrilByte Airdrop](https://dril.drilbyte.com/)
 
 ## Connect a wallet
 
