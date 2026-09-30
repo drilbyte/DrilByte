@@ -326,11 +326,7 @@ Before publishing a final production version of this README, confirm the followi
 | Native currency name | Confirmed: DrilByte |
 | Native currency symbol | Confirmed: `DRBY` |
 | Native currency decimals | Confirmed: `18` |
-| WebSocket endpoint | TBD |
-| Testnet or mainnet status | TBD |
-| Genesis file | TBD |
-| Bootnodes | TBD |
-| Validator runbook | TBD |
+| Testnet or mainnet status | mainnet |
 | Explorer API | Confirmed: `https://api.drilbyte.com` |
 
 ## Security notes
